@@ -1,5 +1,9 @@
 package com.pokecoin.pokecoin.entities
 
+import com.fasterxml.jackson.annotation.JsonProperty
+
+
 class Coin (
-       val usd: List<Usd>
+       @JsonProperty("USD")
+       val usd: Usd
 )

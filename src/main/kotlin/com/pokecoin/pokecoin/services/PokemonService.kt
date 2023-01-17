@@ -13,7 +13,7 @@ import org.springframework.web.reactive.function.client.WebClient
 import org.springframework.web.reactive.function.client.bodyToFlux
 import reactor.core.publisher.Mono
 
-val baseUrl = "https://pokeapi.co/api/v2/growth-rate"
+private val baseUrl = "https://pokeapi.co/api/v2/growth-rate"
 
 @Service
 class PokemonService (

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+ postgres:
+   container_name: postgres_pokecoin
+   image: postgres
+   environment:
+     - POSTGRES_USERNAME=postgres
+     - POSTGRES_PASSWORD=postgres
+     - POSTGRES_DB=postgres
+   ports:
+     - "5432:5432"

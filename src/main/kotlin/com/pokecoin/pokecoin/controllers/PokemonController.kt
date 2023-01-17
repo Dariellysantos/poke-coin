@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono
 
 
 @RestController
-@RequestMapping
+@RequestMapping("/pokemon")
 class PokemonController(
     val pokemonService: PokemonService
 ){
